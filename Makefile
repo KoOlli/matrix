@@ -41,7 +41,7 @@ gcov_report:
 	open report.html
 
 linter:
-	@cp ../materials/linters/.clang-format ./
+	
 	clang-format -n *.c
 	@rm -f .clang-format
 
