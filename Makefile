@@ -41,8 +41,6 @@ gcov_report:
 	open report.html
 
 linter:
-	
 	clang-format -n *.c
-	@rm -f .clang-format
 
 .PHONY: clean linter test gcov_report
